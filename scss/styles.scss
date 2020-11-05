@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+    padding: 2rem;
+    background-color: blueviolet;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.nav {
+
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+    color: cornsilk;
+
+    &__link {
+        font-size: 20px;
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        padding: 0.5rem 1rem;
+        transition: all .3s;
+    
+    &:hover{
+        border-color: lemonchiffon;
+        background-color: darken($color: blueviolet, $amount: 10);
+    }}
+
+    &__user {}
+
+    &__user-icon {}
+
+    &__user-exit {}
+}
+
+.logo {
+
+}
