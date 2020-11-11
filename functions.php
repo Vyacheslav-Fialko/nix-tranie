@@ -2,7 +2,7 @@
 function display($variable)
 {
     ob_start();
-
+    $avatar = null;
     if (!$variable) {
         $title = 'main';
         $variable = 'posts';

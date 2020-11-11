@@ -164,6 +164,21 @@ a {
         }
     }
 }
+.user-card {
+    margin: 50px auto;
+    text-align: center;
+    &__login {
+        font-size: 24px;
+    }
+
+    &__email {
+        font-size: 20px;
+    }
+}
+
+.avatar-demo {
+    font-size: 50px;
+}
 
 
 .footer {
